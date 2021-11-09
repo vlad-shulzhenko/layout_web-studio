@@ -23,16 +23,19 @@ export function HomePage() {
         direction="column"
         alignItems="center"
         py="80px"
+        bgColor="#fff"
       >
         <Heading
+          fontFamily="Roboto"
           fontSize="36px"
+          letterSpacing="0.03rem"
           fontWeight="700"
           mb="50px"
         >
           Title
         </Heading>
 
-        <Flex gridGap="30px" mb="30px" direction={{base: 'column', xl: 'row'}}>
+        <Flex gridGap="30px" mb="30px" direction="column">
           <Flex gridGap="30px" direction={{base: 'column', xl: 'row'}}>
             {posts.slice(0, 3).map(post => (
               <Link to="/layout_web-studio/post" onClick={() => setSelectedPost(post)}>

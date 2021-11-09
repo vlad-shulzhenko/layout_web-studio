@@ -20,6 +20,7 @@ export function Header() {
           <VStack spacing="30px">
             <Text
               fontSize={{base: '28px', md: '38px', xl: '44px'}}
+              fontFamily="Roboto"
               fontWeight="900"
               textAlign="center"
               textTransform="uppercase"

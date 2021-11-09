@@ -39,7 +39,7 @@ const Footer = () => {
             flexDirection="column"
             alignItems="flex-start"
           >
-            <Link href="/">
+            <Link href="/layout_web-studio/">
               <Image src={FooterWebStudio} />
             </Link>
 
@@ -47,6 +47,8 @@ const Footer = () => {
                 <Link
                   href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwjDsZXavYb0AhUEgf0HHaWlACwQ8gF6BAgFEAE"
                   target="_blank"
+                  fontFamily="Roboto"
+                  fontSize="14px"
                   fontWeight="400"
                   color="#fff"
                 >
@@ -55,6 +57,9 @@ const Footer = () => {
                 <Link
                   href="mailto:info@example.com"
                   color="rgba(255, 255, 255, 0.6)"
+                  fontFamily="Roboto"
+                  fontWeight="500"
+                  fontSize="14px"
                   letterSpacing="0.03rem"
                 >
                   info@example.com
@@ -62,6 +67,9 @@ const Footer = () => {
                 <Link
                   href="tel+380991111111"
                   color="rgba(255, 255, 255, 0.6)"
+                  fontFamily="Roboto"
+                  fontWeight="500"
+                  fontSize="14px"
                   letterSpacing="0.03rem"
                 >
                   +38 099 111 11 11
@@ -70,7 +78,9 @@ const Footer = () => {
           </Flex>
           <Flex flexDirection="column" gridGap="20px">
             <Text
+              fontFamily="Roboto"
               fontWeight="700"
+              fontSize="14px"
               letterSpacing="0.03rem"
               textTransform="uppercase"
               color="#fff"
@@ -104,6 +114,9 @@ const Footer = () => {
             <Text
               fontWeight="700"
               color="#fff"
+              fontFamily="Roboto"
+              fontWeight="500"
+              fontSize="14px"
               letterSpacing="0.03rem"
               textTransform="uppercase"
             >
@@ -126,6 +139,10 @@ const Footer = () => {
                   type="submit"
                   h="50px"
                   w="200px"
+                  fontFamily="Roboto"
+                  fontWeight="700"
+                  fontSize="16px"
+                  letterSpacing="0.06rem"
                   bgColor="#2196F3"
                   _hover={{bgColor: '#2015B5'}}
                 >

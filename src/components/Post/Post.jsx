@@ -21,6 +21,10 @@ const Post = ({ title, imgThumbnail }) => {
           bgColor="rgba(47, 48, 58, 0.8)"
         >
           <Text
+            fontFamily="Roboto"
+            fontWeight="500"
+            fontSize="14px"
+            textTransform="uppercase"
             color="#fff"
           >
             {title}

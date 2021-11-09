@@ -1,25 +1,23 @@
 import React from 'react';
 import {
-  Box,
   ChakraProvider,
+  ColorModeScript,
 } from '@chakra-ui/react';
 import {
   BrowserRouter as Router,
   Route,
-  Routes, Switch,
+  Switch,
 } from 'react-router-dom';
-import { Header } from './components/Header/Header';
-import theme from './theme';
-import {HomePage} from './pages/HomePage/HomePage';
+import { HomePage } from './pages/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
 import PostDetails from './pages/PostDetails/PostDetails';
 import Navbar from './components/Navbar/Navbar';
-import {PostsContextProvider} from './PostsContext';
+import { PostsContextProvider } from './PostsContext';
 
 function App() {
   return (
     <PostsContextProvider>
-      <ChakraProvider theme={theme}>
+      <ChakraProvider>
         <Router>
           <Navbar />
           <Switch>

@@ -21,6 +21,7 @@ const Navbar = () => {
       w="100%"
       justify="center"
       py="25px"
+      bgColor="#fff"
     >
       <Flex
         w={{base: '300px', md: '650px', lg: '750px', xl: '1170px'}}
@@ -28,7 +29,7 @@ const Navbar = () => {
         justify="space-between"
       >
         <Flex gridGap={{base: '50px', xl: '90px'}}>
-          <Link href="/">
+          <Link href="/layout_web-studio/">
             <Image src={WebStudio} />
           </Link>
           <HStack spacing="50px" display={{ base: 'none', xl: 'block'}}>
@@ -56,7 +57,11 @@ const Navbar = () => {
           >
             <HStack spacing="10px">
               <EmailIcon h="12px" w="16px" />
-              <Text fontWeight="500">
+              <Text
+                fontFamily="Roboto"
+                fontWeight="500"
+                fontSize="14px"
+              >
                 info@devstudio.com
               </Text>
             </HStack>
@@ -68,7 +73,11 @@ const Navbar = () => {
           >
             <HStack spacing="10px">
               <PhoneIcon h="12px" w="16px"/>
-              <Text fontWeight="500">
+              <Text
+                fontFamily="Roboto"
+                fontWeight="500"
+                fontSize="14px"
+              >
                 +38 096 111 11 11
               </Text>
             </HStack>

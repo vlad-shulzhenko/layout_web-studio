@@ -6,12 +6,12 @@ import {
   Image,
   Text,
 } from '@chakra-ui/react';
-import {usePostsContext} from '../../PostsContext';
+import { usePostsContext } from '../../PostsContext';
 
 const PostDetails = () => {
   const { selectedPost } = usePostsContext();
   return (
-    <Center my="40px">
+    <Center py="40px" bgColor="#fff">
       <Flex
         w="1170px"
       >
@@ -23,13 +23,16 @@ const PostDetails = () => {
           />
           <Flex flexDirection="column" gridGap="15px">
             <Heading
+              fontFamily="Roboto"
               fontSize="36px"
               fontWeight="700"
+              letterSpacing="0.03rem"
               color="#212121"
             >
               {selectedPost.title}
             </Heading>
             <Text
+              fontFamily="Roboto"
               fontSize="18px"
               fontWeight="400"
               letterSpacing="0.02rem"

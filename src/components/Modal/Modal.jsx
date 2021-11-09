@@ -36,6 +36,7 @@ const ModalWindow = () => {
         onClick={onOpen}
       >
         <Text
+          fontFamily="Roboto"
           fontSize="16px"
           fontWeight="700"
           color="#fff"
@@ -49,6 +50,7 @@ const ModalWindow = () => {
         <ModalContent>
           <ModalHeader
             fontSize={{base: '16px', xl: '20px'}}
+            fontFamily="Roboto"
             fontWeight="700"
             textAlign="center"
           >
@@ -58,6 +60,7 @@ const ModalWindow = () => {
           <ModalBody>
             <form action="#" method="GET">
               <FormLabel
+                fontFamily="Roboto"
                 fontSize="12px"
                 fontWeight="400"
                 color="#757575"
@@ -84,6 +87,7 @@ const ModalWindow = () => {
 
               <FormLabel
                 htmlFor="tel"
+                fontFamily="Roboto"
                 fontSize="12px"
                 fontWeight="400"
                 color="#757575"
@@ -109,6 +113,7 @@ const ModalWindow = () => {
 
               <FormLabel
                 htmlFor="email"
+                fontFamily="Roboto"
                 fontSize="12px"
                 fontWeight="400"
                 color="#757575"
@@ -134,6 +139,7 @@ const ModalWindow = () => {
 
               <FormLabel
                 htmlFor="textarea"
+                fontFamily="Roboto"
                 fontSize="12px"
                 fontWeight="400"
                 color="#757575"
@@ -152,6 +158,7 @@ const ModalWindow = () => {
               />
               <Checkbox mb="30px" isRequired>
                 <Text
+                  fontFamily="Roboto"
                   fontSize="14px"
                   fontWeight="400"
                   letterSpacing="0.03rem"
