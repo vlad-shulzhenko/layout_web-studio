@@ -35,7 +35,7 @@ export function HomePage() {
         <Flex gridGap="30px" mb="30px" direction={{base: 'column', xl: 'row'}}>
           <Flex gridGap="30px" direction={{base: 'column', xl: 'row'}}>
             {posts.slice(0, 3).map(post => (
-              <Link to="/post" onClick={() => setSelectedPost(post)}>
+              <Link to="/layout_web-studio/post" onClick={() => setSelectedPost(post)}>
                 <Box>
                   <Post
                     key={post.id}
@@ -49,7 +49,7 @@ export function HomePage() {
           {postsQuantity > 3 && (
             <Flex gridGap="30px" direction={{base: 'column', xl: 'row'}}>
               {posts.slice(3, 6).map(post => (
-                <Link to="/post" onClick={() => setSelectedPost(post)}>
+                <Link to="/layout_web-studio/post" onClick={() => setSelectedPost(post)}>
                   <Box>
                     <Post
                       key={post.id}
@@ -64,7 +64,7 @@ export function HomePage() {
           {postsQuantity > 6 && (
             <Flex gridGap="30px" direction={{base: 'column', xl: 'row'}}>
               {posts.slice(6, 9).map(post => (
-                <Link to="/post" onClick={() => setSelectedPost(post)}>
+                <Link to="/layout_web-studio/post" onClick={() => setSelectedPost(post)}>
                   <Box>
                     <Post
                       key={post.id}

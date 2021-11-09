@@ -23,10 +23,10 @@ function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact={true} path="/">
+            <Route exact={true} path="/layout_web-studio/">
               <HomePage />
             </Route>
-            <Route path="/post">
+            <Route path="/layout_web-studio/post">
               <PostDetails />
             </Route>
           </Switch>
