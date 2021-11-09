@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/layout_web-studio/static/js/main.dd8c4a4d.chunk.js",
+    "main.js.map": "/layout_web-studio/static/js/main.dd8c4a4d.chunk.js.map",
+    "runtime-main.js": "/layout_web-studio/static/js/runtime-main.c7d9e432.js",
+    "runtime-main.js.map": "/layout_web-studio/static/js/runtime-main.c7d9e432.js.map",
+    "static/js/2.85bb1ec8.chunk.js": "/layout_web-studio/static/js/2.85bb1ec8.chunk.js",
+    "static/js/2.85bb1ec8.chunk.js.map": "/layout_web-studio/static/js/2.85bb1ec8.chunk.js.map",
+    "index.html": "/layout_web-studio/index.html",
+    "static/js/2.85bb1ec8.chunk.js.LICENSE.txt": "/layout_web-studio/static/js/2.85bb1ec8.chunk.js.LICENSE.txt",
+    "static/media/HeaderImage.56e081f1.png": "/layout_web-studio/static/media/HeaderImage.56e081f1.png",
+    "static/media/burger.60159947.svg": "/layout_web-studio/static/media/burger.60159947.svg",
+    "static/media/facebook.9b68383c.svg": "/layout_web-studio/static/media/facebook.9b68383c.svg",
+    "static/media/instagram.4cc74a58.svg": "/layout_web-studio/static/media/instagram.4cc74a58.svg",
+    "static/media/linkedin.226940b5.svg": "/layout_web-studio/static/media/linkedin.226940b5.svg",
+    "static/media/subscribe.de17a4f4.svg": "/layout_web-studio/static/media/subscribe.de17a4f4.svg",
+    "static/media/twitter.ef66de36.svg": "/layout_web-studio/static/media/twitter.ef66de36.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7d9e432.js",
+    "static/js/2.85bb1ec8.chunk.js",
+    "static/js/main.dd8c4a4d.chunk.js"
+  ]
+}
