@@ -45,7 +45,12 @@ const ModalWindow = () => {
           связаться
         </Text>
       </Button>
-      <Modal size="lg" isOpen={isOpen} onClose={onClose}>
+      <Modal
+        size="lg"
+        isOpen={isOpen}
+        onClose={onClose}
+        bgColor="#fff"
+      >
         <ModalOverlay />
         <ModalContent>
           <ModalHeader
@@ -106,7 +111,7 @@ const ModalWindow = () => {
                     name="tel"
                     h="40px"
                     w="450px"
-                    type="tel"
+                    type="number"
                   />
                 </InputGroup>
               </FormControl>

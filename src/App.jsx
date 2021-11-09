@@ -1,10 +1,10 @@
 import React from 'react';
 import {
+  Box,
   ChakraProvider,
-  ColorModeScript,
 } from '@chakra-ui/react';
 import {
-  BrowserRouter as Router,
+  BrowserRouter as Router, Redirect,
   Route,
   Switch,
 } from 'react-router-dom';
@@ -19,16 +19,19 @@ function App() {
     <PostsContextProvider>
       <ChakraProvider>
         <Router>
-          <Navbar />
-          <Switch>
-            <Route exact={true} path="/layout_web-studio/">
-              <HomePage />
-            </Route>
-            <Route path="/layout_web-studio/post">
-              <PostDetails />
-            </Route>
-          </Switch>
-          <Footer />
+          <Box minH="100%">
+            <Navbar />
+            <Switch>
+              <Route exact={true} path="/layout_web-studio/">
+                <HomePage />
+              </Route>
+              <Route path="/layout_web-studio/post">
+                <PostDetails />
+              </Route>
+              <Redirect to="/layout_web-studio/"/>
+            </Switch>
+            <Footer />
+          </Box>
         </Router>
       </ChakraProvider>
     </PostsContextProvider>

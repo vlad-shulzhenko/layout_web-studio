@@ -9,9 +9,12 @@ const PostsContextProvider = ({ children }) => {
   const [posts, setPosts] = useState([]);
   const [selectedPost, setSelectedPost] = useState(null);
 
-  useEffect(async () => {
-    const obj = await getPosts();
-    setPosts(obj.data.posts);
+  useEffect( () => {
+    async function fetchData() {
+      const obj = await getPosts();
+      setPosts(obj.data.posts);
+    }
+    fetchData();
   }, []);
 
   return (

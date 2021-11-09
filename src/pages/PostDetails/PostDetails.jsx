@@ -13,13 +13,15 @@ const PostDetails = () => {
   return (
     <Center py="40px" bgColor="#fff">
       <Flex
-        w="1170px"
+        w={{base: '300px', md: '650px', lg: '750px', xl: '1170px'}}
       >
-        <Flex gridGap="30px">
+        <Flex gridGap="30px" direction={{base: 'column', lg: 'row'}}>
           <Image
             src={selectedPost.imgThumbnail}
-            h="470px"
-            w="470px"
+            resize="none"
+            objectPosition="center"
+            h={{base: '290px', xl: '470px'}}
+            w={{base: '290px', xl: '470px'}}
           />
           <Flex flexDirection="column" gridGap="15px">
             <Heading

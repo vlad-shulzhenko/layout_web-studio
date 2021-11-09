@@ -31,6 +31,7 @@ export function HomePage() {
           letterSpacing="0.03rem"
           fontWeight="700"
           mb="50px"
+          color="#212121"
         >
           Title
         </Heading>

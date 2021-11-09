@@ -65,7 +65,7 @@ const Footer = () => {
                   info@example.com
                 </Link>
                 <Link
-                  href="tel+380991111111"
+                  href="tel:+380991111111"
                   color="rgba(255, 255, 255, 0.6)"
                   fontFamily="Roboto"
                   fontWeight="500"
@@ -115,14 +115,15 @@ const Footer = () => {
               fontWeight="700"
               color="#fff"
               fontFamily="Roboto"
-              fontWeight="500"
               fontSize="14px"
               letterSpacing="0.03rem"
               textTransform="uppercase"
             >
               Подпишитесь на рассылку
             </Text>
-            <form action="#" method="GET">
+            <form onSubmit={(event) => {
+              event.preventDefault()
+            }}>
               <Flex gridGap="12px" direction={{base: 'column', xl: 'row'}}>
                 <Input
                   height="50px"
@@ -134,6 +135,7 @@ const Footer = () => {
                   color="rgba(255, 255, 255, 0.6)"
                   bgColor="#2F303A"
                   borderColor="rgba(0, 0, 0, 0.3)"
+                  required
                 />
                 <Button
                   type="submit"
@@ -146,7 +148,7 @@ const Footer = () => {
                   bgColor="#2196F3"
                   _hover={{bgColor: '#2015B5'}}
                 >
-                  <Flex gridGap="10px">
+                  <Flex gridGap="10px" align="center">
                     <Text
                       fontSize="16px"
                       fontWeight="700"

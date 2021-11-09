@@ -9,9 +9,10 @@ import {
 import WebStudio from '../../images/components/Header/WebStudio.png';
 import { navLinks } from '../../constants';
 import HeaderLink from '../Header/HeaderLink';
-import { EmailIcon, PhoneIcon } from '@chakra-ui/icons';
 import { useLocation } from 'react-router-dom';
 import { DrawerExample } from '../Drawer/Drawer';
+import Mail from '../icons/mail/Mail';
+import Phone from '../icons/phone/Phone';
 
 const Navbar = () => {
   let location = useLocation();
@@ -56,7 +57,7 @@ const Navbar = () => {
             _hover={{color:'#2196F3'}}
           >
             <HStack spacing="10px">
-              <EmailIcon h="12px" w="16px" />
+              <Mail />
               <Text
                 fontFamily="Roboto"
                 fontWeight="500"
@@ -72,7 +73,7 @@ const Navbar = () => {
             _hover={{color:'#2196F3'}}
           >
             <HStack spacing="10px">
-              <PhoneIcon h="12px" w="16px"/>
+              <Phone color="#2196F3"/>
               <Text
                 fontFamily="Roboto"
                 fontWeight="500"

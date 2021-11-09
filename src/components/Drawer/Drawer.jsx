@@ -25,6 +25,7 @@ export function DrawerExample() {
         isOpen={isOpen}
         placement="right"
         onClose={onClose}
+        bgColor="#fff"
       >
         <DrawerOverlay />
         <DrawerContent>
@@ -40,7 +41,7 @@ export function DrawerExample() {
               textAlign="center"
             >
               <Link
-                href="/"
+                href="/layout_web-studio/"
                 fontSize="28px"
                 fontWeight="500"
                 color="#2196F3"
@@ -48,14 +49,14 @@ export function DrawerExample() {
                 Студия
               </Link>
               <Link
-                href="#"
+                href="/layout_web-studio/"
                 fontWeight="500"
                 fontSize="28px"
               >
                 Портфолио
               </Link>
               <Link
-                href="#"
+                href="/layout_web-studio/"
                 fontWeight="500"
                 fontSize="28px"
               >
